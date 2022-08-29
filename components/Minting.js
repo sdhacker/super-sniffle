@@ -85,7 +85,7 @@ async function mint() {
           onSuccess: (data) => {
             confettiReward(),
             toast.success("Successfully minted NFT", {id:tid,}),
-            toast.custom(<span id="confettiReward" />);
+            toast.custom(<span id="confettiReward"/>,{duration: 5000,});
           },
           onError: (error) => {
             toast.error("Something went wrong", {id:tid,});
