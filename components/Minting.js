@@ -35,7 +35,7 @@ const Minting = () => {
   const address = useAddress();
 
   const nftDrop = useNFTDrop("0x42BECaFf3737CbB691894059717503bc1F03e316");
-  const editionDrop = useEditionDrop("0x7CCA079B8B8E9857fe0cB1CDA433Fda2F703f9CE")
+  const editionDrop = useEditionDrop("0x7CCA079B8B8E9857fe0cB1CDA433Fda2F703f9CE");
   
   const amount = 1;
 
